@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3f4f6;
+  font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('./assets/images/geca.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.content-section {
+  background: #f3f4f6;
+  min-height: 100vh;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #38bdf8 0%, #e879f9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-line {
+  background: linear-gradient(90deg, #38bdf8 0%, #e879f9 100%);
+}
+
+.gradient-hover {
+  background: linear-gradient(90deg, #38bdf8 0%, #e879f9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, #38bdf8 0%, #e879f9 100%);
+}
